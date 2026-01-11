@@ -5,7 +5,7 @@ import { connectDB } from './config/db.js';
 
 dotenv.config();
 
-import todosRouter from "./routes/todos.routes.js";
+import todosRouter from './routes/todos.routes.js';
 
 const app = express();
 const PORT = process.env.PORT ?? 3000;
